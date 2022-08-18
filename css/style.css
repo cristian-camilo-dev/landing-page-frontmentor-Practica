@@ -1,0 +1,146 @@
+/*Variables Globales */
+:root {
+  --titulos: "Poppins", sans-serif;
+  --fuente: "Open Sans", sans-serif;
+  /*colores primarios*/
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  /*colores secundarios*/
+  --Very-DarkCyan: hsl(192, 100%, 9%);
+  --Very-PaleBlue: hsl(207, 100%, 98%);
+  --padding-properties: 20px 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--fuente);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+ 
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: var(--padding-properties);
+}
+
+/*header nav */
+.hero{
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  --padding-properties: 20px 0;
+  
+
+}
+
+.hero__logo{
+  width: 45%;
+  max-width:160px;
+
+}
+
+.hero__logo img{
+  width: 100%;
+  display: block;
+}
+
+/*header btn */
+
+.hero_cta{
+  color: var(--Light-Pink);
+  text-decoration: none;
+  padding: 6px 16px;
+  border: 2px solid var(--Light-Pink);
+  border-radius: 30px;
+  font-weight:600;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.hero__main{
+  text-align: center;
+  color: var(--Very-DarkCyan);
+
+}
+
+.hero__title{
+  font-family: var(--titulos);
+}
+
+.hero__paragraph{
+  width: 90%;
+  margin: 16px auto;
+  line-height: 1.5;
+  
+}
+
+.cta{
+  display:inline-block;
+  background-color: var(--Pink);
+  color: var(--Very-PaleBlue);
+  text-decoration: none;
+  padding: 16px 30px;
+  border-radius: 30px;
+  margin-top: 16px;
+}
+
+.hero__picture{
+  margin-top:80px;
+}
+
+.hero__picture img{
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero__numbers{
+  display:flex;
+  flex-direction: column;
+  margin: 80px;
+  align-items: center;
+  padding-bottom:100px;
+  gap: 60px;
+}
+
+.hero__item{
+  overflow: hidden;
+  
+}
+
+.hero__number{
+  font-size: 6rem;
+}
+
+.hero__icon{
+  
+  display: block;
+  
+}
+
+
+
+
+
+
